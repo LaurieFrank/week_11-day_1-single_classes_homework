@@ -9,7 +9,7 @@ public class PrinterTest {
 
     @Before
     public void before(){
-        printer = new Printer(10);
+        printer = new Printer(10, 2, 3);
     }
 
     @Test
@@ -27,5 +27,4 @@ public class PrinterTest {
         assertEquals(4, printer.reduceSheets());
     }
 }
-
 
